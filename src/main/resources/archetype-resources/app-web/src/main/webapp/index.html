@@ -1,0 +1,30 @@
+#set( $symbol_pound = '#' )
+#set( $symbol_dollar = '$' )
+#set( $symbol_escape = '\' )
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Start Page</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+    <body>
+        <h1>Calculadora</h1>
+        
+        <form method="get" action="controlador" >
+            <input type="text" name="a" placeholder="Digite o primeiro numero"/>
+            <input type="text" name="b" placeholder="Digite o segundo numero"/>
+            <input type="submit" value="Somar" />
+        </form>
+        
+        <form method="get" action="controladorSingleton" >
+            <input type="submit" value="Ver" />
+        </form>
+        
+         <form method="post" action="controladorSingleton" >
+            <input type="text" name="nome" placeholder="Digite o nome"/>
+            
+            <input type="submit" value="Alterar" />
+        </form>
+        
+    </body>
+</html>

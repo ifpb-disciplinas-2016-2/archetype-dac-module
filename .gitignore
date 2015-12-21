@@ -1,0 +1,9 @@
+/testes/app-exemplo/webapps-core/target/
+/testes/stateless-ejb/webapps-core/target/
+/testes/stateless-ejb/app-shared/target/
+/testes/stateless-ejb/app-web/target/
+/testes/
+/test/
+/target/
+.DS_Store
+
