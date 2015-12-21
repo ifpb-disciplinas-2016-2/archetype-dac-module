@@ -3,7 +3,7 @@
 #set( $symbol_escape = '\' )
 package ${package}.controler;
 
-import ifpb.dac.stateless..Calculadora;
+import ${package}.Calculadora;
 import java.io.IOException;
 import java.io.PrintWriter;
 import javax.ejb.EJB;

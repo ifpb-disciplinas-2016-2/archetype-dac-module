@@ -3,7 +3,7 @@
 #set( $symbol_escape = '\')
 package ${package};
 
-
+import ${package}.Calculadora;
 import javax.swing.JOptionPane;
 /**
  *
