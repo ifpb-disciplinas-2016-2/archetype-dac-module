@@ -17,7 +17,7 @@ import javax.inject.Named;
 public class ProducersResource {
     
     @Produces 
-    @Resource(lookup = "java:global/stateless-ejb-core/CalculadoraImpl")
+    @Resource(lookup = "java:global/${rootArtifactId}-core/CalculadoraImpl")
     private IFCalculadora calculadora;
 
 }
