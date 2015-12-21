@@ -20,7 +20,7 @@ import javax.servlet.http.HttpServletResponse;
 @WebServlet(urlPatterns = {"/controlador"})
 public class Controlador extends HttpServlet {
 
-    @EJB//(name = "java:global/dac-exemplo-core/CalculadoraImpl!ifpb.dac.exemplo.ejb.Calculadora")
+    @Inject
     private IFCalculadora calculadora;
 
     protected void processRequest(HttpServletRequest request, HttpServletResponse response)

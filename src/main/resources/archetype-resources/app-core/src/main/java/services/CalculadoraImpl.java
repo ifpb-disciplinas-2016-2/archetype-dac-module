@@ -9,8 +9,6 @@ import javax.ejb.Stateless;
 
 /**
  * @author Ricardo Job
- * @mail ricardo.job@ifpb.edu.br
- * @since 02/12/2015, 14:41:22
  */
 @Stateless
 @Remote(IFCalculadora.class)
