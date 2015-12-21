@@ -131,6 +131,15 @@ http://maven.apache.org/xsd/archetype-descriptor-1.0.0.xsd"
                     </includes>
                 </fileSet>
                 <fileSet filtered="true" encoding="UTF-8">
+                    <directory>src/main/webapp</directory>
+                    <includes>
+                        <include>**/*.jsp</include>
+                        <include>**/*.html</include>
+                        <include>**/*.xhtml</include>
+                        <include>**/*.xml</include>
+                    </includes>
+                </fileSet>
+                <fileSet filtered="true" encoding="UTF-8">
                     <directory>src/main/resources</directory>
                     <includes>
                         <include>**/*.xml</include>
@@ -182,6 +191,8 @@ http://maven.apache.org/xsd/archetype-descriptor-1.0.0.xsd"
                     <directory>src/main/webapp</directory>
                     <includes>
                         <include>**/*.jsp</include>
+                        <include>**/*.html</include>
+                        <include>**/*.xhtml</include>
                         <include>**/*.xml</include>
                     </includes>
                 </fileSet>

@@ -3,6 +3,7 @@
 #set( $symbol_escape = '\' )
 package ${package}.services;
 
+import ${package}.IFCalculadora;
 import javax.ejb.Remote;
 import javax.ejb.Stateless;
 
@@ -12,8 +13,8 @@ import javax.ejb.Stateless;
  * @since 02/12/2015, 14:41:22
  */
 @Stateless
-@Remote(Calculadora.class)
-public class CalculadoraImpl implements Calculadora{
+@Remote(IFCalculadora.class)
+public class CalculadoraImpl implements IFCalculadora{
 
     @Override
     public int somar(int a, int b) {

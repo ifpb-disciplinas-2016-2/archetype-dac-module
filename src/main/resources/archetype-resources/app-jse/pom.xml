@@ -24,6 +24,11 @@
             <artifactId>${rootArtifactId}-shared</artifactId>
             <version>${version}</version>
         </dependency>
+        <dependency>
+            <groupId>org.glassfish.extras</groupId>
+            <artifactId>glassfish-embedded-all</artifactId>
+            <version>3.1.1</version>
+        </dependency>
     </dependencies>
    
 </project>

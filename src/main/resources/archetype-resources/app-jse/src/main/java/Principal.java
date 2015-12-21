@@ -3,7 +3,7 @@
 #set( $symbol_escape = '\')
 package ${package};
 
-import ${package}.Calculadora;
+import ${package}.IFCalculadora;
 import javax.swing.JOptionPane;
 /**
  *
@@ -70,11 +70,11 @@ public class Principal extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-        String nome = "java:global/dac-exemplo-core-services/CalculadoraImpl";
+        String nome = "java:global/${rootArtifactId}-core/CalculadoraImpl";
         
         
-        Calculadora calculadora = new ServiceLocator().
-                lookup(nome, Calculadora.class);
+        IFCalculadora calculadora = new ServiceLocator().
+                lookup(nome, IFCalculadora.class);
 
         int a = Integer.parseInt(jTextField1.getText());
         int b = Integer.parseInt(jTextField2.getText());

@@ -7,6 +7,6 @@ package ${package};
  *
  * @author Ricardo Job
  */
-public interface Calculadora {
+public interface IFCalculadora {
     public int somar(int a, int b);
 }

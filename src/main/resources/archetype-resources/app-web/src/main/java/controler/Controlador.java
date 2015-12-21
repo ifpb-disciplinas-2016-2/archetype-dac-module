@@ -3,7 +3,7 @@
 #set( $symbol_escape = '\' )
 package ${package}.controler;
 
-import ${package}.Calculadora;
+import ${package}.IFCalculadora;
 import java.io.IOException;
 import java.io.PrintWriter;
 import javax.ejb.EJB;
@@ -21,7 +21,7 @@ import javax.servlet.http.HttpServletResponse;
 public class Controlador extends HttpServlet {
 
     @EJB//(name = "java:global/dac-exemplo-core/CalculadoraImpl!ifpb.dac.exemplo.ejb.Calculadora")
-    private Calculadora calculadora;
+    private IFCalculadora calculadora;
 
     protected void processRequest(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
