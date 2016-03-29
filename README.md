@@ -3,6 +3,7 @@ Este projeto visa criar um projeto corporativo com a estrutura de projetos e dep
 
 ##Primeiro passo - Baixando o projeto
 Clone o projeto: *git clone https://github.com/ifpb-disciplinas-2015-2/archetype-dac-module.git*.
+
 Na pasta criada, execute a instalação do Archetype: *mvn clean install*.
 
 ##Segundo passo - Criando o projeto
